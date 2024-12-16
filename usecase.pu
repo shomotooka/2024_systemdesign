@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+package el-campus{
+    usecase "資料閲覧" as f1
+    usecase "課題提出" as f2
+}
+:student: --> f1
+:student: --> f2
+@enduml
